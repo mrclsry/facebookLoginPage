@@ -1,0 +1,165 @@
+/* Marcelius Surya Wijaya - 2502001164 */
+/* atur font seluruh text */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ukuran dan border dari isi konten */
+.sign-up {
+    width: 400px;
+    margin: 150px auto;
+    padding: 15px;
+    border: 1px solid blue;
+}
+
+/* header bold tulisan daftar */
+.header {  /* header */
+    margin-top: -5px;
+    margin-left: 3px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* sub header dibawah header */
+.sub-header {
+    margin-top: -25px;
+    margin-left: 3px;
+    font-size: 13px;
+    color: grey;
+}
+
+/* garis panjang dibawah sub header */
+.line {
+    margin: 0px -0.94em;
+    border-bottom: 1px solid #ccc;
+}
+
+/* text box nama depan dan nama belakang bersebalahan */
+.name-place {
+    display: flex;
+    padding-top: 15px;
+}
+
+/* ukuran dan settingan border dari textbox nama depan dan nama belakang */
+.name-place input[type=text]{ 
+    width: 174px;
+    margin: 4px;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+
+/* ukuran dan settingan border dari textbox email */
+.email-place input[type=text]{
+    width: 374px;
+    margin: 4px;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #eee; 
+}
+
+/* ukuran dan settingan border dari textbox pass */
+.pass-place input[type=password]{
+    width: 374px;
+    margin: 4px;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #eee; 
+}
+
+/* settingan tulisan dari label */
+.label{
+    padding-left: 5px;
+    font-size: 11px;
+    color: grey;
+}
+
+/* lambang tanda tanya disebelah label tanggal lahir dan jenis kelamin */
+.info {
+    width: 10px;
+    height: 10px;
+    margin-left: 1px;
+    display: inline-block;
+    font-size: 9px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(96, 96, 96);
+}
+
+/* setting ukuran day, month, year */
+.birth-select {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+/* dropdown day, month, year */
+.dropdown { 
+    width: 100%;
+    margin: 1%;
+    display: flex;
+    border-radius: 5px;
+    border-color: #ccc;
+}
+
+/* ukuran box gender */
+.gender-select {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+/* jenis gender */
+.gender-name { 
+    width: 100%;
+    margin: 1%;
+    margin: 1%;
+    padding: 5px;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+}
+
+/* ukuran khusus untuk wanita */
+.female {
+    width: 120%;
+}
+
+/* sub-info link */
+.sub-info{
+    text-decoration: none;
+}
+
+/* posisi tombol daftar */
+.sign-up-button {
+    width: 200px;
+    margin: 20px auto;
+}
+
+/* setting tombol daftar*/
+.sign-up-button button{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color:#0cb40c;
+    cursor: pointer; 
+}
+
+/* berubah warna saat diarahkan ke tombol daftar */
+.sign-up-button button:hover { 
+    color: white;
+    background: green;
+}
